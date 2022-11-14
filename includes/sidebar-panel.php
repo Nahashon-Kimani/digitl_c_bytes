@@ -3,12 +3,12 @@
     <button class="close-icon-menu"><i class="far fa-times"></i></button>
     <!-- inner menu area desktop start -->
     <div class="rts-sidebar-menu-desktop">
-    <img src="../assets/images/logo/placeholder-logo.png" alt="{{ config('app.name') }}" class="logo img-fluid">
+    <img src="./assets/images/logo/placeholder-logo.png" alt="<?php echo $app_name; ?>" class="logo img-fluid">
 
-        {{-- <a class="logo-1" href="{{ route('welcome') }}"><img class="logo" src="../assets/images/logo/logo-1.svg" alt="{{ config('app.name') }}"></a>
-        <a class="logo-2" href="{{ route('welcome') }}"><img class="logo" src="../assets/images/logo/logo-4.svg" alt="{{ config('app.name') }}"></a>
-        <a class="logo-3" href="{{ route('welcome') }}"><img class="logo" src="../assets/images/logo/logo-3.svg" alt="{{ config('app.name') }}"></a>
-        <a class="logo-4" href="{{ route('welcome') }}"><img class="logo" src="../assets/images/logo/logo-5.svg" alt="{{ config('app.name') }}"></a> --}}
+        <!-- {{-- <a class="logo-1" href="./welcome') }}'"><img class="logo" src="../assets/images/logo/logo-1.svg" alt="{{ config('app.name') }}"></a>
+        <a class="logo-2" href="./welcome') }}"><img class="logo" src="../assets/images/logo/logo-4.svg" alt="{{ config('app.name') }}"></a>
+        <a class="logo-3" href="./welcome') }}"><img class="logo" src="../assets/images/logo/logo-3.svg" alt="{{ config('app.name') }}"></a>
+        <a class="logo-4" href="./welcome') }}"><img class="logo" src="../assets/images/logo/logo-5.svg" alt="{{ config('app.name') }}"></a> --}} -->
         <div class="body d-none d-xl-block">
             <p class="disc">
                 We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
@@ -33,7 +33,7 @@
                     <!-- single -->
                     <div class="single">
                         <i class="fas fa-globe"></i>
-                        <a href="{{ route('welcome') }}">www.digitalcloudbytes.com</a>
+                        <a href="./index.php">www.digitalcloudbytes.com</a>
                     </div>
                     <!-- single ENd -->
                     <!-- single -->
@@ -55,17 +55,10 @@
         <div class="body-mobile d-block d-xl-none">
             <nav class="nav-main mainmenu-nav">
                 <ul class="mainmenu">
-                    <li><a class="nav-item" href="{{ route('welcome') }}">Home</a></li>
-                    <li><a class="nav-item" href="{{ route('about-us') }}">About Us</a></li>
-                    <li><a class="nav-item" href="{{ route('our-services') }}">Our Services</a></li>
-                    {{-- <li class="has-droupdown">
-                        <a class="nav-link" href="#">Services</a>
-                        <ul class="submenu">
-                            <li><a href="our-service.html">Our Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                    </li> --}}
-                    <li><a class="nav-item" href="{{ route('contact-us') }}">Contact</a></li>
+                    <li><a class="nav-item" href="./index.php">Home</a></li>
+                    <li><a class="nav-item" href="./about.php">About Us</a></li>
+                    <li><a class="nav-item" href="./service.php">Our Services</a></li>
+                    <li><a class="nav-item" href="./contact-us.php">Contact</a></li>
                 </ul>
             </nav>
             <div class="social-wrapper-two menu mobile-menu">
