@@ -1,6 +1,4 @@
-@extends('layouts.frontend.index')
-@section('title', 'SERVICE')
-@section('content')
+<?php $title="SERVICE"; include('./website/header.php'); ?>
 
   
     <!-- start breadcrumb area -->
@@ -12,7 +10,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="{{ route('welcome') }}">Home</a>
+                        <a href="./index.php">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Our Services</a>
                     </div>
@@ -30,7 +28,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail"><img src="{{ asset('frontend/assets/images/service/02.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail"><img src="./assets/images/service/02.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Strategy Growth</h5>
@@ -38,7 +36,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +45,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail two"><img src="{{ asset('frontend/assets/images/service/03.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail two"><img src="./assets/images/service/03.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Grow Business</h5>
@@ -55,7 +53,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +62,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail three"><img src="{{ asset('frontend/assets/images/service/04.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail three"><img src="./assets/images/service/04.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Proudly Speech</h5>
@@ -72,7 +70,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +79,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail"><img src="{{ asset('frontend/assets/images/service/02.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail"><img src="./assets/images/service/02.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Model Building</h5>
@@ -89,7 +87,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +96,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--60">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail two"><img src="{{ asset('frontend/assets/images/service/03.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail two"><img src="./assets/images/service/03.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Solution Model</h5>
@@ -106,7 +104,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +113,7 @@
                 <!-- single service area -->
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--60 pb_sm--60">
                     <div class="service-two-inner">
-                        <a href="{{ route('service-details') }}" class="thumbnail three"><img src="{{ asset('frontend/assets/images/service/04.jpg') }}" alt="{{ config('app.name') }}"></a>
+                        <a href="./service-details.php" class="thumbnail three"><img src="./assets/images/service/04.jpg" alt="<?php echo $app_name; ?>"></a>
                         <div class="body-content">
                             <div class="hidden-area">
                                 <h5 class="title">Finbiz Solution</h5>
@@ -123,7 +121,7 @@
                                     Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
                                     bibendum morbi laoreet lobortis id
                                 </p>
-                                <a class="rts-read-more-two color-primary" href="{{ route('service-details') }}">Read More<i class="far fa-arrow-right"></i></a>
+                                <a class="rts-read-more-two color-primary" href="./service-details.php">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -221,4 +219,5 @@
 
 
 
-@endsection
+
+    <?php include('./website/footer.php');  ?>

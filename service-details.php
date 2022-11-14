@@ -1,7 +1,4 @@
-@extends('layouts.frontend.index')
-@section('title', 'SERVICE')
-@section('content')
-
+<?php $title="SERVICE DETAILS"; include('./website/header.php'); ?>
 
 
     <!-- start breadcrumb area -->
@@ -13,7 +10,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="{{ route('welcome') }}">Home</a>
+                        <a href="./index.php">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Projects Details</a>
                     </div>
@@ -29,7 +26,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="big-bg-porduct-details">
-                        <img src="{{ asset('frontend/assets/images/product/bg-lg-01.jpg') }}" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/product/bg-lg-01.jpg" alt="<?php echo $app_name; ?>">
                         <div class="project-info">
                             <div class="info-head">
                                 <h5 class="title">Project Information</h5>
@@ -109,17 +106,17 @@
             <div class="row g-5 mb--60">
                 <div class="col-lg-4">
                     <div class="thumbnail">
-                        <img src="{{ asset('frontend/assets/images/product/d-01.jpg') }}" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/product/d-01.jpg" alt="<?php echo $app_name; ?>">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="thumbnail">
-                        <img src="{{ asset('frontend/assets/images/product/d-02.jpg') }}" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/product/d-02.jpg" alt="<?php echo $app_name; ?>">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="thumbnail">
-                        <img src="{{ asset('frontend/assets/images/product/d-03.jpg') }}" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/product/d-03.jpg" alt="<?php echo $app_name; ?>">
                     </div>
                 </div>
             </div>
@@ -187,4 +184,8 @@
     <!-- project details image area end -->
 
 
-@endsection
+
+    
+
+
+    <?php include('./website/footer.php');  ?>

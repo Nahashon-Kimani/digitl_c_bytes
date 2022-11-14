@@ -1,7 +1,4 @@
-@extends('layouts.frontend.index')
-@section('title', 'CONTACT US')
-@section('content')
-
+<?php $title="CONTACT US"; include('./website/header.php'); ?>
 
 
     <!-- start breadcrumb area -->
@@ -13,7 +10,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="{{ route('welcome') }}">Home</a>
+                        <a href="./index.php">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Contact Us</a>
                     </div>
@@ -32,11 +29,11 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{{ asset('frontend/assets/images/contact/01.png') }}" alt="{{ config('app.name') }}">
+                            <img src="./assets/images/contact/01.png" alt="<?php echo $app_name; ?>">
                         </div>
                         <div class="content">
                             <div class="icone">
-                                <img src="{{ asset('frontend/assets/images/contact/shape/01.svg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/contact/shape/01.svg" alt="<?php echo $app_name; ?>">
                             </div>
                             <div class="info">
                                 <span>Call Us 24/7</span>
@@ -52,11 +49,11 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{{ asset('frontend/assets/images/contact/02.png') }}" alt="{{ config('app.name') }}">
+                            <img src="./assets/images/contact/02.png" alt="<?php echo $app_name; ?>">
                         </div>
                         <div class="content">
                             <div class="icone">
-                                <img src="{{ asset('frontend/assets/images/contact/shape/02.svg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/contact/shape/02.svg" alt="<?php echo $app_name; ?>">
                             </div>
                             <div class="info">
                                 <span>MAke A Quote</span>
@@ -72,11 +69,11 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="{{ asset('frontend/assets/images/contact/03.png') }}" alt="{{ config('app.name') }}">
+                            <img src="./assets/images/contact/03.png" alt="<?php echo $app_name; ?>">
                         </div>
                         <div class="content">
                             <div class="icone">
-                                <img src="{{ asset('frontend/assets/images/contact/shape/03.svg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/contact/shape/03.svg" alt="<?php echo $app_name; ?>">
                             </div>
                             <div class="info">
                                 <span>Location</span>
@@ -101,7 +98,7 @@
                     <div class="contact-map-area-fluid">
                         <iframe class="contact-map" src="https://maps.google.com/maps?q=TRA%20Tanga&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=&amp;output=embed" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         
-                        <img class="location" src="{{ asset('frontend/assets/images/contact/shape/location.svg') }}" alt="Business_map">
+                        <img class="location" src="./assets/images/contact/shape/location.svg" alt="<?php echo $app_name; ?>">
                     </div>
                 </div>
             </div>
@@ -117,7 +114,7 @@
             <div class="row align-items-center g-0">
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="contact-image-one">
-                        <img src="{{ asset('frontend/assets/images/contact/01.jpg') }}" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/contact/01.jpg" alt="<?php echo $app_name; ?>">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
@@ -194,4 +191,8 @@
     </div>
     <!-- map area end -->
 
-@endsection
+
+
+
+
+    <?php include('./website/footer.php');  ?>

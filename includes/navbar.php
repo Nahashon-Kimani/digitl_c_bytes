@@ -16,9 +16,9 @@
                 <div class="col-lg-6 d-xl-block d-none">
                     <div class="right">
                         <ul class="top-nav">
-                            <li><a href="./pages/about.php">About Us</a></li>
-                            <li><a href="./pages/about.php">Careers</a></li>
-                            <li><a href="./pages/contact.php">Contact</a></li>
+                            <li><a href="./about.php">About Us</a></li>
+                            <li><a href="./about.php">Careers</a></li>
+                            <li><a href="./contact.php">Contact</a></li>
                         </ul>
                         <ul class="social-wrapper-one">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -46,8 +46,8 @@
                         <nav class="nav-main mainmenu-nav d-none d-xl-block">
                             <ul class="mainmenu">
                                 <li><a class="nav-item" href="./index.php">Home</a></li>
-                                <li><a class="nav-item" href="./pages/about.php">About Us</a></li>
-                                <li><a class="nav-item" href="./pages/service.php">Our Services</a></li>
+                                <li><a class="nav-item" href="./about.php">About Us</a></li>
+                                <li><a class="nav-item" href="./service.php">Our Services</a></li>
                                 <!-- <li class="has-droupdown">
                                     <a class="nav-link" href="#">Services</a>
                                     <ul class="submenu">
@@ -55,7 +55,7 @@
                                         <li><a href="service-details.html">Service Details</a></li>
                                     </ul>
                                 </li>  -->
-                                <li><a class="nav-item" href="./pages/contact.php">Contact Us</a></li>
+                                <li><a class="nav-item" href="./contact.php">Contact Us</a></li>
                             </ul>
                         </nav>
 
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>  -->
-                            <a href="./pages/contact.php" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Work With Us</a>
+                            <a href="./contact.php" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Work With Us</a>
                             <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                 <img class="menu-dark" src="./assets/images/icon/menu.png" alt="Menu-icon">
                                 <img class="menu-light" src="./assets/images/icon/menu-light.png" alt="Menu-icon">

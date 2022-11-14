@@ -41,17 +41,17 @@
                     </div>
                     <div class="quick-link-inner">
                         <ul class="links">
-                            <li><a href="{{ route('welcome') }}"><i class="far fa-arrow-right"></i> Home</a></li>
-                            <li><a href="{{ route('about-us') }}"><i class="far fa-arrow-right"></i> About Us</a></li>
-                            <li><a href="{{ route('contact-us') }}"><i class="far fa-arrow-right"></i> Contact Us</a></li>
-                            <li><a href="{{ route('our-services') }}"><i class="far fa-arrow-right"></i> Services</a></li>
-                            <li><a href="{{ route('welcome') }}"><i class="far fa-arrow-right"></i> Training</a></li>
+                            <li><a href="./index.php"><i class="far fa-arrow-right"></i> Home</a></li>
+                            <li><a href="./about.php"><i class="far fa-arrow-right"></i> About Us</a></li>
+                            <li><a href="./contact.php"><i class="far fa-arrow-right"></i> Contact Us</a></li>
+                            <li><a href="./service.php"><i class="far fa-arrow-right"></i> Services</a></li>
+                            <li><a href="./index.php"><i class="far fa-arrow-right"></i> Training</a></li>
                         </ul>
                         <ul class="links margin-left-70">
-                            <li><a href="{{ route('about-us') }}"><i class="far fa-arrow-right"></i> About Us</a></li>
-                            <li><a href="{{ route('welcome') }}"><i class="far fa-arrow-right"></i> My Account</a></li>
-                            <li><a href="{{ route('about-us') }}"><i class="far fa-arrow-right"></i> Our Company</a></li>
-                            <li><a href="{{ route('our-services') }}"><i class="far fa-arrow-right"></i> Our Service</a></li>
+                            <li><a href="./about.php"><i class="far fa-arrow-right"></i> About Us</a></li>
+                            <li><a href="./index.php"><i class="far fa-arrow-right"></i> My Account</a></li>
+                            <li><a href="./about.php"><i class="far fa-arrow-right"></i> Our Company</a></li>
+                            <li><a href="./service.php"><i class="far fa-arrow-right"></i> Our Service</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="footer-one-single-wized mid-bg">
                     <div class="wized-title">
                         <h5 class="title">Opening Hours</h5>
-                        <img src="./assets/images/footer/under-title.png" alt="{{ config('app.name') }}">
+                        <img src="./assets/images/footer/under-title.png" alt="{{ config('app.name.php">
                     </div>
                     <div class="opening-time-inner">
                         <div class="single-opening">
@@ -76,7 +76,7 @@
                             <p class="day">Sunday</p>
                             <p class="time">Day Off</p>
                         </div>
-                        <a href="{{ route('contact-us') }}" class="rts-btn btn-primary contact-us">Contact Us</a>
+                        <a href="./contact.php" class="rts-btn btn-primary contact-us">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-center">
-                        <p>{{ Str::ucfirst(config('app.name')) }} - Copyright {{ date('Y') }}. All rights reserved.</p>
+                        <p><?php echo $app_name; ?> - Copyright  <?php echo date('Y'); ?> All rights reserved.</p>
                     </div>
                 </div>
             </div>

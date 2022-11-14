@@ -1,6 +1,6 @@
-@extends('layouts.frontend.index')
-@section('title', 'ABOUT US')
-@section('content')
+<?php $title="ABOUT US"; include('./website/header.php'); ?>
+
+
 
  <!-- start breadcrumb area -->
  <div class="rts-breadcrumb-area breadcrumb-bg bg_image">
@@ -11,7 +11,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="bread-tag">
-                    <a href="index.html">Home</a>
+                    <a href="./index.php">Home</a>
                     <span> / </span>
                     <a href="#" class="active">About Us</a>
                 </div>
@@ -28,8 +28,8 @@
             <div class="col-lg-6">
                 <div class="about-image-v-inner">
                     <div class="image-area">
-                        <img class="mt--110 img-1" src="{{ asset('frontend/assets/images/about/main/about-03.jpg') }}" alt="BUsiness_image">
-                        <img class="img-over" src="{{ asset('frontend/assets/images/about/main/about-04.jpg') }}" alt="BUsiness_image">
+                        <img class="mt--110 img-1" src="./assets/images/about/main/about-03.jpg" alt="BUsiness_image">
+                        <img class="img-over" src="./assets/images/about/main/about-04.jpg" alt="BUsiness_image">
                         <div class="goal-button-wrapper">
                             <div class="vedio-icone">
                                 <a id="play-video" class="video-play-button" href="#">
@@ -101,10 +101,10 @@
                     <div class="service-one-inner-four">
                         <div class="big-thumbnail-area">
                             <a href="#" class="thumbnail">
-                                <img src="{{ asset('frontend/assets/images/service/07.jpg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/service/07.jpg" alt="<?php echo $app_name; ?>">
                             </a>
                             <div class="content">
-                                <img src="{{ asset('frontend/assets/images/service/icon/13.svg') }}" alt="{{ config('app.name') }} Service">
+                                <img src="./assets/images/service/icon/13.svg" alt="<?php echo $app_name; ?> Service">
                                 <h5 class="title">Business Consultancy</h5>
                                 <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
                                     potenti</p>
@@ -120,10 +120,10 @@
                     <div class="service-one-inner-four">
                         <div class="big-thumbnail-area">
                             <a href="#" class="thumbnail">
-                                <img src="{{ asset('frontend/assets/images/service/08.jpg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/service/08.jpg" alt="<?php echo $app_name; ?>">
                             </a>
                             <div class="content">
-                                <img src="{{ asset('frontend/assets/images/service/icon/14.svg') }}" alt="{{ config('app.name') }} Service">
+                                <img src="./assets/images/service/icon/14.svg" alt="<?php echo $app_name; ?> Service">
                                 <h5 class="title">Business Appoinment</h5>
                                 <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
                                     potenti</p>
@@ -139,10 +139,10 @@
                     <div class="service-one-inner-four">
                         <div class="big-thumbnail-area">
                             <a href="#" class="thumbnail">
-                                <img src="{{ asset('frontend/assets/images/service/09.jpg') }}" alt="{{ config('app.name') }}">
+                                <img src="./assets/images/service/09.jpg" alt="<?php echo $app_name; ?>">
                             </a>
                             <div class="content">
-                                <img src="{{ asset('frontend/assets/images/service/icon/15.svg') }}" alt="{{ config('app.name') }} Service">
+                                <img src="./assets/images/service/icon/15.svg" alt="<?php echo $app_name; ?> Service">
                                 <h5 class="title">Consultancy Foundation</h5>
                                 <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
                                     potenti</p>
@@ -193,7 +193,7 @@
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="#">
-                                    <img src="{{ asset('frontend/assets/images/team/tm/01.jpg') }}" alt="Business_Team_single">
+                                    <img src="./assets/images/team/tm/01.jpg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -218,7 +218,7 @@
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="#">
-                                    <img src="{{ asset('frontend/assets/images/team/tm/02.jpg') }}" alt="Business_Team_single">
+                                    <img src="./assets/images/team/tm/02.jpg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -243,7 +243,7 @@
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="#">
-                                    <img src="{{ asset('frontend/assets/images/team/tm/03.jpg') }}" alt="Business_Team_single">
+                                    <img src="./assets/images/team/tm/03.jpg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -268,7 +268,7 @@
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="#">
-                                    <img src="{{ asset('frontend/assets/images/team/tm/04.jpg') }}" alt="Business_Team_single">
+                                    <img src="./assets/images/team/tm/04.jpg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -360,7 +360,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="thumbnail-faq-four">
-                    <img src="{{ asset('frontend/assets/images/faq/02.png') }}" alt="">
+                    <img src="./assets/images/faq/02.png" alt="">
                 </div>
             </div>
         </div>
@@ -384,7 +384,7 @@
                 <div class="testimopnial-wrapper-two">
                     <div class="test-header">
                         <div class="thumbnail">
-                            <img src="{{ asset('frontend/assets/images/testimonials/02.png') }}" alt="">
+                            <img src="./assets/images/testimonials/02.png" alt="">
                         </div>
                         <div class="name-desig">
                             <h5 class="title">David Smith</h5>
@@ -405,7 +405,7 @@
                 <div class="testimopnial-wrapper-two">
                     <div class="test-header">
                         <div class="thumbnail">
-                            <img src="{{ asset('frontend/assets/images/testimonials/03.png') }}" alt="">
+                            <img src="./assets/images/testimonials/03.png" alt="">
                         </div>
                         <div class="name-desig">
                             <h5 class="title">David Smith</h5>
@@ -427,4 +427,6 @@
 </div>
 <!-- customers feed back area end -->
 
-@endsection
+
+
+<?php include('./website/footer.php');  ?>
